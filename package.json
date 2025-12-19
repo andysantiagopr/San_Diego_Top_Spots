@@ -1,7 +1,9 @@
 {
+
     "name": "san-diego-top-spots",
     "version": "1.0.0",
     "scripts": {
+        "start": "npx node-static . -p 8888",
         "test": "npx playwright test",
         "postinstall": "npx playwright install"
     },
@@ -13,3 +15,5 @@
         "jquery": "^3.7.1"
     }
 }
+
+

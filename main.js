@@ -12,6 +12,7 @@ $(document).ready(function() {
             const mapLink = $("<a>") //Creates the anchor element with Jquery. 
                 .attr("href", `https://www.google.com/maps?q=${lat},${lng}`) //Constructed a dynamic link using template literals and query parameter key to insert lat and lng values into the link. 
                 .attr("target", "_blank") //Helps to open the page on a new tab. 
+                .addClass("link-button")
                 .text("Open in Google Maps"); //Creates the text for the anchor element.
 
             //In HTML it would look like this: <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank">Open in Google Maps>.

@@ -1,0 +1,58 @@
+html, body {
+    height: 100%; /*Makes the page fill the screen*/
+    margin: 0; /* Removes browser default spacing*/
+}
+
+main {
+    padding-bottom: 40px; /* Adds the extra space at the bottom of the page to separate the table */
+}
+
+header {
+    display: flex;
+    justify-content:left;
+    background-color: #5DBBFF;
+}
+
+.title {
+    color: white;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse; /*this makes all the borders become one so they can overlap*/
+    border-radius: 20px;
+    overflow: hidden; /*this forces the content to respect the border radius. Without this the border-collapse does not allow border-radius to function. */
+    width: 80%;
+    margin: 60px auto;
+}
+
+th {
+    background-color: #5DBBFF;
+    color: white;
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+}
+
+td {
+    background-color: #EAF6FF;
+}
+
+tr:hover td {
+    background-color: #DFF1FF;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 6px 30px;
+    background-color: #4AA3F0;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    white-space: nowrap;
+}
